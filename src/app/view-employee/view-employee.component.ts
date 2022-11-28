@@ -41,6 +41,6 @@ export class ViewEmployeeComponent {
   "designstion":"trainee",
   "email":"jfhff",
   "salary":"25000"
- },
+ }
  ]
 }

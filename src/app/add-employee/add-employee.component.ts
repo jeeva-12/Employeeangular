@@ -7,4 +7,23 @@ import { Component } from '@angular/core';
 })
 export class AddEmployeeComponent {
 
+  employeeid=""
+  name=""
+  designstion=""
+  email=""
+  salary=""
+
+  readValue=()=>
+  {
+    let data:any=
+    {
+      "employeeid:":this.employeeid,
+      "name":this.name,
+      "designstion":this.designstion,
+      "email":this.email,
+      "salary":this.salary
+     }
+     console.log(data)
+  }
+
 }
