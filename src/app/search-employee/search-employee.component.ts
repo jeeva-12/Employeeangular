@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class SearchEmployeeComponent {
 
+
+  
+  employeeid=""
+
+  search=()=>
+  {
+    let data:any=
+    {
+      "employeeid":this.employeeid
+    }
+    console.log(data)
+  }
+
 }
